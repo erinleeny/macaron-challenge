@@ -1,0 +1,46 @@
+.cartitem {
+    position: relative;
+    height: 70;
+    display: flex;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.priceTag {
+    font-size: 13px;
+    align-self: flex-start;
+    margin-top: 0;
+    font-weight: 500;
+    text-align: right;
+}
+h3 {
+    font-weight: 200;
+    font-size: 12px;
+}
+.smallimg {
+    float: left;
+    width: 100;
+    height: auto;
+    padding-left: 0;
+}
+.box {
+    text-align: left;
+    align-self: flex-start;
+    height: 70px;
+    padding-left: 1rem;
+}
+.amount {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+hr {
+    border-top: 0.2px solid rgba(237, 236, 224, 0.53);
+    width: 80%;
+    margin-right: 1rem;
+}
+
+.button {
+    color: rgba(35, 121, 88, 0.75);
+    align-items: center;
+}

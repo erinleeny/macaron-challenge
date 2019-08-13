@@ -1,0 +1,12 @@
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #525557;
+    text-align: left;
+}
+.menu {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}

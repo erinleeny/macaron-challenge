@@ -1,0 +1,40 @@
+.navbar {
+    height: 3.5rem;
+    border-bottom: solid 0.4px lightgray;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo {
+    float: left;
+    padding: 1.1rem;
+    flex-shrink: 0;
+}
+
+.button:focus { outline: none; color: #3c3e40;}
+
+.button {
+    color: #3c3e40;
+}
+
+.item {
+    padding: 1.1rem;
+    padding-top: 1.3rem;
+    float: right;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+    flex-shrink: 4;
+    border: none;
+    border-bottom: solid 0.4px lightgray;
+    color: #3c3e40;
+}
+
+.items {
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+

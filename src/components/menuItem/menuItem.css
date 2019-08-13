@@ -1,0 +1,55 @@
+.menuItem {
+    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 12px;
+}
+.img {
+    float: left;
+    padding: 1rem;
+    height: 7rem;
+    padding-left: 0;
+}
+.box {
+    width: 100%;
+    text-align: left;
+    align-self: flex-start;
+    padding-right: 0.7rem;
+}
+.amount {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+hr {
+    border-top: 0.2px solid rgba(237, 236, 224, 0.53);
+    width: 100%;
+}
+.price {
+    background-color: rgba(237, 236, 224, 0.53);
+    height: 120px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.priceName {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3c3e40;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.button {
+    color: rgba(35, 121, 88, 0.75);
+    align-items: center;
+}
