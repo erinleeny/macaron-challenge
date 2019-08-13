@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import './navbar.css';
+import styles from './navbar.css';
 import Cart from '../cart/cart';
 import Drawer from '@material-ui/core/Drawer';
 import { ReactComponent as Logo } from './logo.svg';
+import { ReactComponent as CartIcon } from './cart_icon.svg';
 
 class Navbar extends Component {
     render() {
@@ -15,10 +16,10 @@ class Navbar extends Component {
                     <div className = "item">BEVERAGES</div>
                     <div className = "item">GIFTS</div>
                     <div className = "item">|</div>
-                    <button style = {{color: "#3c3e40"}} className = "item button" onClick={this.props.toggleDrawer(true)}>CART</button>
+                    <div style = {{color: "#3c3e40"}} className = "item button" onClick={this.props.toggleDrawer(true)}><CartIcon className = "cartIcon"/><span>CART</span></div>
                 </div>
                 <Drawer anchor="right" open={this.props.open} onClose={this.props.toggleDrawer(false)}>
-                    <Cart cart = { this.props.cart } />
+                    <Cart cart = { this.props.cart } toggleDrawer = {this.props.toggleDrawer} />
                 </Drawer>
             </div>
         );

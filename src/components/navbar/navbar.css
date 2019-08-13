@@ -10,11 +10,19 @@
     padding: 1.1rem;
     flex-shrink: 0;
 }
+.cartIcon {
+    margin-right: 10px;
+    margin-left: -10px;
+    padding-bottom: 5px;
+}
 
 .button:focus { outline: none; color: #3c3e40;}
 
 .button {
     color: #3c3e40;
+    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .item {
@@ -37,4 +45,3 @@
     justify-content: flex-end;
     margin-right: 0;
 }
-

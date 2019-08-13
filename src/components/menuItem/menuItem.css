@@ -8,6 +8,30 @@
 
 }
 
+.clickedStyle {
+    color: white;
+    background-color: rgba(35, 121, 88, 0.75);
+    box-shadow: none;
+    font-family: "Poppins";
+    text-transform: none;
+    height: 2.7rem;
+    font-size: 12;
+    width: 80%;
+    border-radius: 5px
+}
+
+.buttonStyle {
+    color: white;
+    background-color: rgba(35, 121, 88, 0.75);
+    box-shadow: none;
+    font-family: "Poppins";
+    text-transform: none;
+    height: 2.7rem;
+    font-size: 12;
+    width:80%;
+    border-radius: 5px
+}
+
 h3 {
     font-weight: 200;
     font-size: 12px;
