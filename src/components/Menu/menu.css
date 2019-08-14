@@ -4,9 +4,20 @@ h2 {
     color: #525557;
     text-align: left;
 }
+
+.h2 {
+    margin-bottom: 0;
+}
+
 .menu {
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 815px) {
+    .h2 {
+        font-size: 15px;
+    }
 }

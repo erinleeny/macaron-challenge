@@ -14,6 +14,13 @@ p {
     right: 1.8rem;
 }
 
+.close {
+    font-size: 12px;
+}
+
+.close:focus {
+    outline: none;
+}
 .title {
     padding-top: 1.5rem;
 }

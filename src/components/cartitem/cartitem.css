@@ -5,6 +5,18 @@
     display: inline-block;
     padding-bottom: 1rem;
 }
+.span {
+    font-weight: 500;
+    font-size: 10px;
+    color: dark;
+    margin-top: 0;
+    bottom: 1;
+    position: absolute;
+    color: grey;
+}
+.span:hover {
+    border-bottom: solid 1px grey;
+}
 
 .priceTag {
     font-size: 13px;

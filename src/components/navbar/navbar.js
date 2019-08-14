@@ -7,7 +7,7 @@ import { ReactComponent as CartIcon } from './cart_icon.svg';
 
 class Navbar extends Component {
     render() {
-        console.log(this.props);
+        const { onDelete, cart, open, toggleDrawer } = this.props;
         return (
             <div className = "navbar ">
                 <Logo  className = 'logo'/>
@@ -16,10 +16,10 @@ class Navbar extends Component {
                     <div className = "item">BEVERAGES</div>
                     <div className = "item">GIFTS</div>
                     <div className = "item">|</div>
-                    <div style = {{color: "#3c3e40"}} className = "item button" onClick={this.props.toggleDrawer(true)}><CartIcon className = "cartIcon"/><span>CART</span></div>
+                    <div style = {{color: "#3c3e40"}} className = "item button" onClick={toggleDrawer(true)}><CartIcon className = "cartIcon"/><span>CART</span></div>
                 </div>
-                <Drawer anchor="right" open={this.props.open} onClose={this.props.toggleDrawer(false)}>
-                    <Cart cart = { this.props.cart } toggleDrawer = {this.props.toggleDrawer} />
+                <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
+                    <Cart cart = { cart } toggleDrawer = {toggleDrawer} onDelete = {onDelete} />
                 </Drawer>
             </div>
         );
