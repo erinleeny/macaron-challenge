@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 class Menuitem extends Component {
     render() {
         const {item, onAdd} = this.props;
-        const buttonStyle = {color: "white", backgroundColor: "rgba(35, 121, 88, 0.75)", boxShadow: 'none', fontFamily: "Poppins", textTransform: 'none', height: "2.7rem", fontSize: 12, width: "80%", borderRadius: "5px"};
+        const buttonStyle = {color: "white", backgroundColor: "#3B8873", boxShadow: 'none', fontFamily: "Poppins", textTransform: 'none', height: "2.7rem", fontSize: 12, width: "80%", borderRadius: "5px"};
         const clickedStyle = {color: "white", backgroundColor: "#2EAE82", boxShadow: 'none', fontFamily: "Poppins", textTransform: 'none', height: "2.7rem", fontSize: 12, width: "80%", borderRadius: "5px"}
         return (
             <React.Fragment>

@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 
 class Cart extends Component {
     render() {
-        const buttonStyle = {color: "white", backgroundColor: "rgba(35, 121, 88, 0.75)", boxShadow: 'none', fontFamily: "Poppins", textTransform: 'none', height: "2.7rem", fontSize: 12, width: "100%", borderRadius: "5px"};
+        const buttonStyle = {color: "white", backgroundColor: "#3B8873", boxShadow: 'none', fontFamily: "Poppins", textTransform: 'none', height: "2.7rem", fontSize: 12, width: "100%", borderRadius: "5px"};
         const { cart, toggleDrawer, onDelete } = this.props;
         var total = 0.00;
         for (var i = 0; i < cart.length; i++) {

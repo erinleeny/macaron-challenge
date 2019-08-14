@@ -55,11 +55,11 @@ h3 {
 }
 
 hr {
-    border-top: 0.2px solid rgba(237, 236, 224, 0.53);
+    border-top: 0.2px solid #F5F5F5;
     width: 100%;
 }
 .price {
-    background-color: rgba(237, 236, 224, 0.53);
+    background-color: #F5F5F5;
     height: 120px;
     border-radius: 5px;
     text-align: center;
