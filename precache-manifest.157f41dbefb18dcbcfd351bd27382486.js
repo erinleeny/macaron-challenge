@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b8f5bc1c92d6a5190d4c4b0105cf1de",
+    "revision": "93f6b4176016afbc2067e3899397387d",
     "url": "/macaron-challenge/index.html"
   },
   {
-    "revision": "aa1539554296677f77c6",
-    "url": "/macaron-challenge/static/css/main.59c7716f.chunk.css"
+    "revision": "59c3c6e81cb137f4030a",
+    "url": "/macaron-challenge/static/css/main.e0a8e3bc.chunk.css"
   },
   {
     "revision": "8f58fd6a5acc1ddf7548",
     "url": "/macaron-challenge/static/js/2.1042ecd5.chunk.js"
   },
   {
-    "revision": "aa1539554296677f77c6",
+    "revision": "59c3c6e81cb137f4030a",
     "url": "/macaron-challenge/static/js/main.6d45d377.chunk.js"
   },
   {

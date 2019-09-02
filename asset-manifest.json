@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/macaron-challenge/static/css/main.59c7716f.chunk.css",
+    "main.css": "/macaron-challenge/static/css/main.e0a8e3bc.chunk.css",
     "main.js": "/macaron-challenge/static/js/main.6d45d377.chunk.js",
     "main.js.map": "/macaron-challenge/static/js/main.6d45d377.chunk.js.map",
     "runtime~main.js": "/macaron-challenge/static/js/runtime~main.668ed884.js",
@@ -8,9 +8,9 @@
     "static/js/2.1042ecd5.chunk.js": "/macaron-challenge/static/js/2.1042ecd5.chunk.js",
     "static/js/2.1042ecd5.chunk.js.map": "/macaron-challenge/static/js/2.1042ecd5.chunk.js.map",
     "index.html": "/macaron-challenge/index.html",
-    "precache-manifest.939ea76bccd4b0b0374c5bda262fad76.js": "/macaron-challenge/precache-manifest.939ea76bccd4b0b0374c5bda262fad76.js",
+    "precache-manifest.157f41dbefb18dcbcfd351bd27382486.js": "/macaron-challenge/precache-manifest.157f41dbefb18dcbcfd351bd27382486.js",
     "service-worker.js": "/macaron-challenge/service-worker.js",
-    "static/css/main.59c7716f.chunk.css.map": "/macaron-challenge/static/css/main.59c7716f.chunk.css.map",
+    "static/css/main.e0a8e3bc.chunk.css.map": "/macaron-challenge/static/css/main.e0a8e3bc.chunk.css.map",
     "static/media/cart_icon.0a05a26d.svg": "/macaron-challenge/static/media/cart_icon.0a05a26d.svg",
     "static/media/facebook_icon.7f287522.svg": "/macaron-challenge/static/media/facebook_icon.7f287522.svg",
     "static/media/giftbox.png": "/macaron-challenge/static/media/giftbox.21449971.png",
