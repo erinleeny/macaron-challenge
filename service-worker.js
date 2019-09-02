@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/macaron-challenge/precache-manifest.148e8d1b6bf91b999d2847ce2dc91613.js"
+  "/macaron-challenge/precache-manifest.939ea76bccd4b0b0374c5bda262fad76.js"
 );
 
 self.addEventListener('message', (event) => {
