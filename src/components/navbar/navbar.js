@@ -16,7 +16,7 @@ class Navbar extends Component {
                     <div className = "item">BEVERAGES</div>
                     <div className = "item">GIFTS</div>
                     <div className = "item" style = {{paddingRight: "20px", paddingLeft: "12px"}}>|</div>
-                    <div style = {{color: "var(--main-bg-color)", width: "60px"}} className = "cartSection button" onClick={toggleDrawer(true)}><CartIcon className = "cartIcon"/><span>CART</span></div>
+                    <div style = {{color: "var(--main-bg-color)", width: "60px"}} className = "cartSection cbutton" onClick={toggleDrawer(true)}><CartIcon className = "cartIcon"/><span>CART</span></div>
                 </div>
                 <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
                     <Cart cart = { cart } toggleDrawer = {toggleDrawer} onDelete = {onDelete} />

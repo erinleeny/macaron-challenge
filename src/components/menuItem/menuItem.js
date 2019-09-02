@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styles from './menuItem.css';
 import Button from '@material-ui/core/Button';
 import DoneIcon from '@material-ui/icons/Done';
+import AddIcon from '@material-ui/icons/Add';
 import Grid from '@material-ui/core/Grid';
 
 class Menuitem extends Component {
@@ -22,8 +23,8 @@ class Menuitem extends Component {
                 <Grid xs = {2}><div className = "price">
                     <br/><h3 className = "priceName">${item.price}/ea.</h3>
                     {item.added
-                        ? <button style = {clickedStyle} className = "button"><span className = "buttonText"><DoneIcon style = {{fontSize: 13, marginBottom: -3, paddingRight: "0.3rem"}} />Added to Cart</span></button>
-                        : <button className = "button" onClick = {() => onAdd(item)} variant="contained" style = {buttonStyle} ><span className = "buttonText">+ Add to Cart</span></button>
+                        ? <button style = {clickedStyle} className = "button"><span className = "buttonText"><DoneIcon style = {{fontSize: 12, marginBottom: -3, paddingRight: "0.3rem"}} className = "icon" />Added to Cart</span></button>
+                        : <button className = "button" onClick = {() => onAdd(item)} variant="contained" style = {buttonStyle} ><span className = "buttonText"><AddIcon style = {{fontSize: 12, marginBottom: -3, paddingRight: "0.3rem"}} className = "icon" />Add to Cart</span></button>
                     }
                 </div></Grid>
             </Grid>
