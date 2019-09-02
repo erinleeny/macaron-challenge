@@ -8,7 +8,7 @@ class Menu extends Component {
         console.log(items);
         return (
             <div className = "menu">
-                <h2>Menu</h2>
+                <h2 className = "title">Menu</h2>
                 {items.map(item =>
                     <Menuitem item = {item} onAdd = {onAdd} key = {item.id}></Menuitem>
                 )}

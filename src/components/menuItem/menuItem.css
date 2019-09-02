@@ -1,57 +1,43 @@
 .menuItem {
     display: inline-block;
     display: flex;
+    text-align: center;
     flex-wrap: nowrap;
     font-size: 14px;
     border-radius: 5px;
     align-items: center;
+    justify-content: center;
 
 }
 
-.clickedStyle {
-    color: white;
-    background-color: rgba(35, 121, 88, 0.75);
-    box-shadow: none;
-    font-family: "Poppins";
-    text-transform: none;
-    height: 2.7rem;
-    font-size: 12;
-    width: 80%;
-    border-radius: 5px
+.name {
+    padding: 0;
+    color: #5DAD93;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
 }
-
-.buttonStyle {
-    color: white;
-    background-color: rgba(35, 121, 88, 0.75);
-    box-shadow: none;
-    font-family: "Poppins";
-    text-transform: none;
-    height: 2.7rem;
-    font-size: 12;
-    width:80%;
-    border-radius: 5px
-}
-
 h3 {
     font-weight: 200;
-    font-size: 12px;
+    font-size: 14px;
 }
 .img {
-    float: left;
-    padding: 1rem;
-    height: 7rem;
-    padding-left: 0;
+    float: right;
+    height: 160px;
 }
 .box {
-    width: 100%;
+    width: 95%;
+    height: 160px;
     text-align: left;
     align-self: flex-start;
-    margin-top: -3rem;
-    padding-left: 1rem;
+    margin-left: 20px;
+    padding: 0;
+    margin-right: 20px;
 }
 .amount {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
+    margin: 0;
 }
 
 hr {
@@ -60,37 +46,73 @@ hr {
 }
 .price {
     background-color: #F5F5F5;
-    height: 120px;
+    height: 160px;
+    width: 220px;
     border-radius: 5px;
     text-align: center;
-    align-items: center;
 }
 .priceName {
     font-weight: 600;
-    font-size: 16px;
-    color: #3c3e40;
+    font-size: 20px;
+    color: var(--main-bg-color);
     margin: 0;
-    margin-bottom: 7px;
+    margin-top: 15px;
+    margin-bottom: 27px;
 }
 
 .button {
-    color: rgba(35, 121, 88, 0.75);
+    color: #5DAD93;
     align-items: center;
+    width: 175px;
+    height: 50px;
+    border-radius: 3px;
+    fontFamily: "Poppins";
+    font-weight: 500;
+    text-align: center;
+    line-height: 22.5px;
+    margin-left: 22px;
 }
+
 .amount {
     font-weight: 500;
     color: dark;
     font-size: 14px;
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1175px) {
+    .img {
+        height: 120px;
+    }
     .box {
-        padding-left: 2.5rem;
+        height: 120px;
+    }
+    .price {
+        height: 120px;
+        width: 165px;
+    }
+    .priceName {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .button {
+        width: 120px;
+        height: 40px;
     }
 }
 
 @media only screen and (max-width: 850px) {
     .img {
-        height: 80px;
+        height: 100px;
+    }
+    .box {
+        height: 100px;
+    }
+    .price {
+        height: 100px;
+        width: 137.5px;
+    }
+    .priceName {
+        font-size: 14px;
     }
     h3 {
         font-size: 10px;
@@ -98,14 +120,35 @@ hr {
     .amount {
         font-size: 11px;
     }
-    .box {
-        margin-top: -1.5rem;
+
+    .button {
+        width: 95px;
+        height: 35px;
+    }
+    .name {
+        font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 815px) {
-    .buttonText {
+    .img {
+        height: 90px;
+    }
+    .box {
+        height: 90px;
+    }
+    .price {
+        height: 90px;
+        width: 123.75px;
+    }
+    .priceName {
         font-size: 10px;
+    }
+    .button {
+        width: 80px;
+        height: 32px;
+        font-size: 9px;
+        line-height: 6px;
     }
 }
 

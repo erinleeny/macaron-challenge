@@ -5,17 +5,22 @@ h2 {
     text-align: left;
 }
 
-.h2 {
-    margin-bottom: 0;
+.title {
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
-
 .menu {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 42px;
+    margin-right: 42px;
     display: flex;
     flex-direction: column;
 }
 
+@media only screen and (max-width: 1175px) {
+    .title {
+        margin-top: 5px;
+    }
+}
 @media only screen and (max-width: 815px) {
     .h2 {
         font-size: 15px;
