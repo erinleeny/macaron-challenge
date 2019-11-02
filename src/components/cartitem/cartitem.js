@@ -26,12 +26,6 @@ class Cartitem extends Component {
                 </Grid>
                 <hr></hr>
             </div>
-
-
-
-
-
-
         )
     }
 }
