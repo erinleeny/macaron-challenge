@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import Menu from './components/Menu/menu';
+import Menu from './components/menu/menu';
 import Footer from './components/footer/footer';
 import giftbox from './components/menuItem/giftbox.png';
 import rose from './components/menuItem/rose.png';
