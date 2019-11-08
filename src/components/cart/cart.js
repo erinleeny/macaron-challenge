@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Cartitem from '../cartitem/cartitem';
+import Cartitem from '../cartItem/cartItem';
 import styles from './cart.css';
 import Button from "@material-ui/core/Button";
 

@@ -10,7 +10,7 @@ class Menu extends Component {
             <div className = "menu">
                 <h2 className = "title">Menu</h2>
                 {items.map(item =>
-                    <Menuitem item = {item} onAdd = {onAdd} key = {item.id}></Menuitem>
+                    <MenuItem item = {item} onAdd = {onAdd} key = {item.id}></MenuItem>
                 )}
             </div>
         );
